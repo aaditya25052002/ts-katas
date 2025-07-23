@@ -11,7 +11,7 @@ describe("FizzBuzz", () => {
   });
 
   it("should return fizz for 3", () => {
-    expect(fizzBuzz(3)).toBe("fizz");
+    expect(fizzBuzz(3)).toBe("Fizz");
   });
 
   it("should return 4 for 4", () => {
@@ -19,10 +19,10 @@ describe("FizzBuzz", () => {
   });
 
   it("should return buzz for 5", () => {
-    expect(fizzBuzz(5)).toBe("buzz");
+    expect(fizzBuzz(5)).toBe("Buzz");
   });
 
   it("should return fizzBuzz for 15", () => {
-    expect(fizzBuzz(15)).toBe("fizzBuzz");
+    expect(fizzBuzz(15)).toBe("FizzBuzz");
   });
 });
